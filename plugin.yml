@@ -1,0 +1,16 @@
+name: MinecraftChatbot
+version: 1.0
+description: A chatbot for Minecraft
+author: KodaichiZero
+main: org.matecraft.kodaichi.matecraftchatbot.ChatbotPlugin
+prefix: MCB
+
+commands:
+  bot:
+    description: Speak with a chatbot.
+    permission: mcb.bot
+    permission-message: You do not have permission to use this command.
+permissions:
+  mcb.bot:
+    description: Allows you to use the bot command to speak with chatbots.
+    default: op
