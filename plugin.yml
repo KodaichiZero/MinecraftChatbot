@@ -6,11 +6,11 @@ main: org.matecraft.kodaichi.matecraftchatbot.ChatbotPlugin
 prefix: MCB
 
 commands:
-  bot:
-    description: Speak with a chatbot.
-    permission: mcb.bot
+  createbot:
+    description: Create a new chat bot.
+    permission: mcb.manage
     permission-message: You do not have permission to use this command.
 permissions:
-  mcb.bot:
-    description: Allows you to use the bot command to speak with chatbots.
+  mcb.manage:
+    description: Allows one to manage chatbots.
     default: op
